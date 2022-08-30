@@ -118,7 +118,7 @@ background-color: hsl(216, 12%, 54%);
 
 
 /* This is Phone Viewport CSS*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }
