@@ -1,0 +1,146 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
+.star-icon {
+  background-color: #303944;
+  padding: 15px;
+  border-radius: 100%;
+  margin-top: 25px;
+  /* filter: opacity(0.6); */
+}
+
+.div-container {
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+  width: 420px;
+  height: 400px;
+  border-radius: 30px;
+  margin: 10% auto;
+}
+
+.div-heading {
+  margin: 30px;
+  text-align: left;
+}
+
+.comment {
+  color: hsl(216, 12%, 54%);
+}
+
+.rating-item {
+  display: inline-block;
+  background-color: #303944;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  margin: auto 2%;
+  cursor: pointer;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+}
+
+.rating-item:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.pressed {
+background-color: hsl(216, 12%, 54%);
+}
+
+
+.rating-list {
+  text-align: center;
+}
+
+.submit-btn {
+  margin: 5% auto;
+  margin-top: 30px;
+  display: inline-block;
+  width: 330px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%)
+}
+
+.submit-btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.not-show {
+  display: none;
+}
+
+.thanks-icon {
+  margin: 25px 25%;
+  margin-top: 40px;
+}
+
+.p-rating {
+  background-color: #303944;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+}
+
+.final-comment {
+  margin: auto auto;
+  width: 85%;
+  color: hsl(216, 12%, 54%);
+}
+
+
+
+/* This is Phone Viewport CSS*/
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .div-container {
+    width: 360px;
+    height: 390px;
+    margin: 10% auto;
+  }
+
+  .div-heading {
+    margin: 20px;
+    text-align: left;
+  }
+
+  .rating-item {
+    width: 50px;
+    height: 50px;
+    margin: auto 2%;
+  }
+
+  .submit-btn {
+    margin: 30px auto;
+  }
+}
